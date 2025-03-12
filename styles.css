@@ -2,13 +2,21 @@
     font-family:Arial, Helvetica, sans-serif
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 ul {
     list-style: none;
+    border: solid pink;
+    display: flex;
 }
 
 a {
     text-decoration: none;
     color: #E5E7EB;
+    border: solid orange;
 }
 
 button {
@@ -17,24 +25,41 @@ button {
     font-weight: 700;
 }
 
-.hero {
+.hero-container {
     background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
     display: flex;
     border: solid red;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
     font-size: 24px;
     font-weight: 700;
     color: #F9FAF8;
-    border: solid red;
+    border: solid blue;
 }
 
 .links {
-    border: solid red;
+    border: solid yellow;
+}
+
+.main {
+    display: flex;
+    border: solid green;
+    justify-content: space-between;
+}
+
+.signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
 }
 
 .maintext {
@@ -49,3 +74,8 @@ button {
     color: #E5E7EB;
 }
 
+.image {
+    border: solid indigo;
+    width: 100px;
+    flex: 1;
+}
