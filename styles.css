@@ -127,6 +127,16 @@ button {
     border: solid yellow;
 }
 
+.call-container {
+    border: solid red;
+}
+
+.call {
+    border: solid yellow;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
 .footer-container {
     background-color: #1F2937;
     display: flex;
