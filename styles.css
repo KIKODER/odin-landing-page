@@ -48,7 +48,6 @@ button {
 
 .main {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     margin: 0;
     padding: 30px 0;
@@ -84,7 +83,6 @@ button {
 }
 
 .image {
-    flex: 1;
     padding: 0 30px 0 0;
 }
 
